@@ -1,0 +1,61 @@
+.transformSelect {
+    width : 200px;
+}
+
+.multipleSelect {
+    overflow-y: scroll;
+    border-style : solid;
+    border: 1px solid #C3C3C3;
+    width : auto;
+    height : 100px;
+    overflow-x : hidden;
+    position: relative;
+    
+    .ui-state-hover {
+        cursor: pointer;
+    }
+
+	.nOption {
+	    position: relative;
+
+	    label {
+	        font-weight: normal;
+	        position: relative;
+	        top: 1px;
+	    }
+
+	    input {
+	        position : relative;
+	        top : 0;
+	    }
+
+	    &.selected {
+	    	background-color : #0A5099;
+    		color : #FFFFFF;
+	    }
+	}
+
+
+	.optGroupList {
+	    div {
+	        padding-left : 16px;
+	    }
+	    .optGroupDisplay {
+	        padding-left : 0px;
+
+			.subOptions {
+			    padding-right : 5px;
+			}
+
+	    }
+	    &.selected {
+	    	background-color : #0A5099;
+   			color : #FFFFFF;
+	    }
+	    &.semiselected {
+		    background-color : #248EF1;
+		    color : #FFFFFF;
+		}
+
+	}
+}
